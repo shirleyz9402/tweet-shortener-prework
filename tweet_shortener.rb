@@ -1,3 +1,4 @@
+ def dictionary
   dictionary = {
     "hello" => "hi",
     "to" => "2",
@@ -9,6 +10,8 @@
     "at" => "@",
     "and" => "&"
   }
+end 
+
 def  word_substituter(tweet)
   subbed = tweet.split.map do |word|
     if dictionary.keys.include?(word.downcase)
