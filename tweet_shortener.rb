@@ -1,2 +1,6 @@
-def dictionary 
+def dictionary
+  subs = {
+    :hi => [""]  
+    
+  }
   
