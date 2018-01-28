@@ -1,4 +1,3 @@
-def dictionary
   subs = {
     hi => "hello",
     "2" => ["to", "two", "too"],
@@ -8,4 +7,3 @@ def dictionary
     "@" => "at"
     "&" => "and"
   }
-end 
