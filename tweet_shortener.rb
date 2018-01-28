@@ -39,7 +39,7 @@ def selective_tweet_shortener(tweet)
 end 
 
 def shortened_tweet_truncator(tweet)
-  subbed = word_substituter(tweet)
+  subbed = selective_tweet_shortener(tweet)
   if subbed.length > 140
     puts "#{subbed[0..136]}..."
   else 
