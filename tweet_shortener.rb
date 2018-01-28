@@ -7,7 +7,5 @@ def dictionary
     u => "you"
     @ => "at"
     "&" => "and"
-    
-        
   }
-  
+end 
