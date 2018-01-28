@@ -31,9 +31,18 @@ def bulk_tweet_shortener(tweets)
 end 
   
 def selective_tweet_shortener(tweet)
-  if tweet.length > 140
+  if tweet.size > 140
     word_substituter(tweet)
   else 
     tweet
   end
+end 
+
+def shortened_tweet_truncator(tweet)
+  subbed = selective_tweet_shortener(tweet)
+  if subbed.size > 140
+    puts "#{subbed[0..139]}..."
+  else 
+    subbed
+  end 
 end 
