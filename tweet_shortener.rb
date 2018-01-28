@@ -9,3 +9,5 @@
     "at" => "@",
     "and" => "&"
   }
+def  word_substituter(tweet)
+  tweet.split 
