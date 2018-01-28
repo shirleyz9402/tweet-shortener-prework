@@ -43,6 +43,6 @@ def shortened_tweet_truncator(tweet)
   if subbed.size > 140
     puts "#{subbed[0..139]}..."
   else 
-    subbed
+    tweet
   end 
 end 
